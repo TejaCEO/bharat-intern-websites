@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+ width: 100%;
+ background:url(background.jpg);   
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ position: relative;
+ font-family: sans-serif;
+}
+
+.navbar{
+width: 86%;
+display: flex;
+align-items: center;
+padding: 15px 0px;
+margin:auto;
+justify-content: space-between;
+
+}
+.navbar .logo{
+    margin-top: -3%;
+    margin-left: -2%;
+    cursor: pointer;
+    width: 160px;
+}
+ul{
+margin-top: 0;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 16px;
+    margin-top: -4%;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    transition: 4ms ease;
+    margin-top: -4%;
+}
+ul li a:hover{
+    color:orangered;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;   
+}
+.info h1{
+    font-size: 65px;
+    color: black;
+}
+.info h1 span{
+    color: orangered;
+}
+.info h3{
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 24px;
+}
+.info a{
+padding: 10px 16px;
+color: white;
+background-color: rgb(35, 35, 35);
+display: inline-block;
+margin: 26px 0;
+border-radius: 10px;
+text-decoration: none;
+transition: 4ms ease;
+cursor: pointer;
+}
+.info a:hover{
+background-color:orangered;
+transition: 1s ease;
+}
+.profile{
+    width: 150px;
+    height: 200px; 
+    position: absolute;
+    right: 90%;
+    bottom: 35%;
+}
+.profile img{
+    position: absolute;
+    height: 200%;
+    left: 100%;
+    transform: translate(100vh);
+    bottom: -0;
+    transition: left 2s ease ;
+    border-radius: 3%;
+}
+.profile img:hover{
+    left: 55%;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: orangered;
+}
